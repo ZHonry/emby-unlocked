@@ -34,7 +34,7 @@ build_msbuild() {
 
 build_emby() {
     git clone --depth 1 https://github.com/MediaBrowser/Emby
-    git clone --depth 1 https://github.com/nvllsvm/emby-unlocked
+    git clone --depth 1 https://github.com/ZHonry/emby-unlocked
 
     patch -N -p1 \
         Emby/Emby.Server.Implementations/Security/PluginSecurityManager.cs \
