@@ -9,7 +9,7 @@ ENV PUID=1000 PGID=1000
 
 VOLUME /config 
 
-HEALTHCHECK CMD curl -q http://localhost:8096/emby/system/info/public?format=json -O /dev/null || exit 1
+HEALTHCHECK CMD curl -q http://localhost:8096/emby/system/info/public?format=json || exit 1
 
 ENTRYPOINT \
     chown $PUID:$PGID /config && \
