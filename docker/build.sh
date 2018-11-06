@@ -14,7 +14,7 @@ install_dependencies() {
     apk add -t .dev git ffmpeg-dev mono-dev binutils curl icu libunwind openssl bash zip
 
     # Run deps
-    apk add ffmpeg mono sqlite imagemagick-dev sqlite-dev su-exec samba-common-tools samba-client
+    apk add ffmpeg mono sqlite imagemagick-dev sqlite-dev su-exec 
 }
 
 
