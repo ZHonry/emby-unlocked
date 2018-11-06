@@ -1,3 +1,4 @@
+复制nvllsvm大神的项目，针对自己实际使用的一丢丢小修改
 # emby-unlocked
 Emby with the premium Emby Premiere features unlocked.
 
