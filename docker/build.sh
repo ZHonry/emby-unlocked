@@ -62,4 +62,4 @@ cd
 
 cleanup_dependencies
 rm -rf "$BUILD_DIR" /build.sh /root /tmp /var/cache/apk/*
-mkdir /root /tmp /opt/media
+mkdir /root /tmp 
