@@ -3,7 +3,7 @@ FROM alpine:edge
 COPY build.sh /build.sh
 RUN /build.sh
 
-EXPOSE 8096
+EXPOSE 8096 8920
 
 ENV PUID=1000 PGID=1000
 
